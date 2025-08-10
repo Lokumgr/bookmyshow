@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.top-nav {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e91e63;
+  padding-top:11px;
+}
+
+#logo {
+  width: 100px;
+}
+
+.top-nav input {
+  flex: 1;
+  margin: 0 20px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.location {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.signin-btn {
+  background: #f84464;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.main-menu {
+  background: #f2f2f2;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.movies {
+  padding: 20px;
+  background: #fff;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-header h2 {
+  font-size: 22px;
+}
+
+.section-header a {
+  text-decoration: none;
+  color: #f84464;
+  font-weight: bold;
+}
+
+.movie-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.movie-row img {
+  border-radius: 6px;
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+}
+/* recomended movies */
+.rec-mov {
+  margin: 0px auto;
+  width: 92vw;
+  max-width: 1240px;
+  padding: 0 0 32px 0;
+}
+.subhead-seeall {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.rec-mov h2 {
+  margin: 0;
+}
+.see-all {
+  color: #dc3558;
+  font-size: 14px;
+  margin: 0;
+}
+.mov-cards {
+  display: flex;
+  gap: 32px;
+  margin: 8px 0;
+}
+.mov-img {
+  height: 23.6rem;
+  width: 13.9rem;
+  border-radius: 8px;
+}
+.mov-card h3 {
+  margin: 8px 0;
+  font-weight: 600;
+}
+.mov-card p {
+  margin: 0;
+  color: #727272;
+}
+
+/* Promo img */
+#promo-img {
+  padding: 48px 0;
+}
+.promo {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+/* Best of live events */
+.live-eve {
+  margin: 0 auto;
+  width: 92vw;
+  max-width: 1240px;
+  padding: 32px 0 64px 0;
+}
+.live-eve h2 {
+  margin: 0;
+}
+.eve-cards {
+  display: flex;
+  gap: 32px;
+  margin: 8px 0;
+}
+.eve-img {
+  height: 14rem;
+  width: 13.9rem;
+  border-radius: 8px;
+}
+#sicon{
+position:absolute;
+   padding-left:128px;
+   font-size:20px;
+   color:dark-grey;
+   padding-top:4px;
+   
+}
+#tbox{
+   height:35px;
+   width:-200px;
+   margin-right:400px;
+    outline: none;
+    box-shadow: none; 
+}
+.premier-img-div {
+  background-color: #2b3148;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+.premier-img {
+  width: 80vw;
+}
+.premier {
+  margin: 0;
+  padding: 0;
+  background-color: #2b3148;
+  color: whitesmoke;
+}
+.premier-mov {
+  margin: 0px auto;
+  width: 92vw;
+  max-width: 1240px;
+  padding: 16px 0;
+}
+.premier-mov h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.premier-mov p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+.premier-mov .mov-cards .mov-img {
+  height: 21rem;
+}
+.premier-mov .mov-cards .mov-card p {
+  color: whitesmoke;
+  font-size: 16px;
+}

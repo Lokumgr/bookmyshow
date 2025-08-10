@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BookMyShow Mini Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <header class="top-nav">
+      <div class="logo"><img src="logo.jpeg" alt="" id="logo" /></div>
+      <input
+        type="text" id="tbox"
+        placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search for Movies, Events, Plays, Sports and Activities"
+      />
+     <span class="material-symbols-outlined" id="sicon">
+search
+</span>
+      <div class="location">Bengaluru ▾</div>
+      <button class="signin-btn">Sign in</button>
+      <div class="menu-icon">☰</div>
+    </header>
+
+    <!-- Main Menu -->
+    <nav class="main-menu">
+      <a href="#">Movies</a>
+      <a href="#">Stream</a>
+      <a href="#">Events</a>
+      <a href="#">Plays</a>
+      <a href="#">Sports</a>
+      <a href="#">Activities</a>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+      <img src="banner.jpg" alt="Banner" />
+    </section>
+
+    <!-- recommended movies -->
+    <div class="rec-mov">
+      <div class="subhead-seeall">
+        <h2>Recomended Movies</h2>
+        <p class="see-all">See All ›</p>
+      </div>
+      <div class="mov-cards">
+        <div class="mov-card" id="move-card1">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS41LzEwICA2Ni45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00454128-vqwbzveqat-portrait.jpg"
+            alt=""
+            class="mov-img"
+          />
+          <h3>Su From So</h3>
+          <p>Comedy/Horror</p>
+        </div>
+        <div class="mov-card" id="move-card2">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS43LzEwICAxODIuM0sgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00429289-nmmqrhcemr-portrait.jpg"
+            alt=""
+            class="mov-img"
+          />
+          <h3>Mahavatar Narsimha</h3>
+          <p>Action/Animation/Drama</p>
+        </div>
+        <div class="mov-card" id="move-card3">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NzgyLjFLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395817-whdlpwruhm-portrait.jpg"
+            alt=""
+            class="mov-img"
+          />
+          <h3>Coolie</h3>
+          <p>Action/Thriller</p>
+        </div>
+        <div class="mov-card" id="move-card4">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4xLzEwICAyMjAuNUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00447951-besqwckxum-portrait.jpg"
+            alt=""
+            class="mov-img"
+          />
+          <h3>Saiyaara</h3>
+          <p>Drama/Musical/Romatic</p>
+        </div>
+        <div class="mov-card" id="move-card5">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAyLjFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00442830-rrggragrvb-portrait.jpg"
+            alt=""
+            class="mov-img"
+          />
+          <h3>Weapons</h3>
+          <p>Horror/Mystery/Thriller</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- promo -->
+    <div class="promo">
+      <img
+        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png"
+        alt=""
+        id="promo-img"
+      />
+    </div>
+
+    <!-- Best of live events -->
+    <div class="live-eve">
+      <h2>The Best Of Live Events</h2>
+      <div class="eve-cards">
+        <div class="eve-card">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTgwKyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png"
+            alt=""
+            class="eve-img"
+          />
+        </div>
+        <div class="eve-card">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png"
+            alt=""
+            class="eve-img"
+          />
+        </div>
+        <div class="eve-card">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NzArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/theatre-shows-collection-202211140440.png"
+            alt=""
+            class="eve-img"
+          />
+        </div>
+        <div class="eve-card">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-banner-desktop-collection-202503251132.png"
+            alt=""
+            class="eve-img"
+          />
+        </div>
+        <div class="eve-card">
+          <img
+            src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjgwKyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/adventure-fun-collection-202211140440.png"
+            alt=""
+            class="eve-img"
+          />
+        </div>
+      </div>
+    </div><!-- Premiers -->
+    <div class="premier-img-div">
+      <img
+        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png"
+        alt=""
+        class="premier-img"
+      />
+    </div>
+
+    <div class="premier">
+      <div class="premier-mov">
+        <div class="subhead-seeall">
+          <h2>Premieres</h2>
+          <p class="see-all">See All ›</p>
+        </div>
+        <p>Brand new releases every Friday</p>
+        <div class="mov-cards">
+          <div class="mov-card" id="move-card1">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00456275-glcznkjvhf-portrait.jpg"
+              alt=""
+              class="mov-img"
+            />
+            <h3>This is Spinal Tap</h3>
+            <p>English</p>
+          </div>
+          <div class="mov-card" id="move-card2">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00058671-eyxfwuvhnd-portrait.jpg"
+              alt=""
+              class="mov-img"
+            />
+            <h3>Evening Shadows</h3>
+            <p>Hindi</p>
+          </div>
+          <div class="mov-card" id="move-card3">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00457187-mbuwewwcse-portrait.jpg"
+              alt=""
+              class="mov-img"
+            />
+            <h3>Materialists(Preview)</h3>
+            <p>English</p>
+          </div>
+          <div class="mov-card" id="move-card4">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00457195-knhnnanhey-portrait.jpg"
+              alt=""
+              class="mov-img"
+            />
+            <h3>28 Years Later(Preview)</h3>
+            <p>English</p>
+          </div>
+          <div class="mov-card" id="move-card5">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00438887-dtgtyuwtcu-portrait.jpg"
+              alt=""
+              class="mov-img"
+            />
+            <h3>Diamonds</h3>
+            <p>Italians</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
